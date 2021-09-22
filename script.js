@@ -12,13 +12,13 @@ function compute() {
     //if principal is blank, 0, or negative, sends alert & focus back to principal field
     if (principal == "" || principal <= 0) {
         alert("Enter a positive number");
-        principal.focus();
+        document.getElementById("principal").focus();
         return false;
     }
 
     if (years == "-years-") {
         alert("Select number of years");
-        years.focus();
+        document.getElementById("years").focus();
         return false;
     }
     //sends the result onclick of button to return variables & calculated interest
