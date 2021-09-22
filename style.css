@@ -1,22 +1,28 @@
-body{
-	background-color:white;
-	color:black;
-	font-family:"arial";
-	font-color:white;
+body {
+    font-family: arial, serif;
+    color: white;
+    background-color: black;
 }
-h1{
-	color:grey;
-	font-family:"verdana";
+
+.maindiv {
+    margin: auto;
+    color: black;
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+    padding: 20px;
 }
-.maindiv{
-	background-color:white;
-	font-color:black;
-	width:300px;
-	padding:20px 20px 20px 20px;
-	border-radius:25px;
+
+h1 {
+    font-family: verdana, sans-serif;
+    color: grey;
+    text-align: center;
 }
-div{
-	text-align:left;
+
+table {
+    margin: auto;
+    table-layout: fixed;
+    width: max-content;
+    align-items: center;
+    white-space: nowrap;
 }
-.my-output{
-	text-align:left;
