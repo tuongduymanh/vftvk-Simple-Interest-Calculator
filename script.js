@@ -24,7 +24,7 @@ function compute() {
     //sends the result onclick of button to return variables & calculated interest
     document.getElementById("result").innerHTML = "If you deposit <mark>" + currency.format(principal) + "</mark>,<br>" +
         "at an interest rate of <mark>" + rate + "%</mark>.<br>" +
-        "You will receive an amount of <mark>" + currency.format(interest+principal) + "</mark>,<br>" +
+        "You will receive an amount of <mark>" + currency.format(parseInt(interest)+parseInt(principal)) + "</mark>,<br>" +
         "in the year <mark>" + yr + "</mark>.";
 }
 
